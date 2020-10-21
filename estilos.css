@@ -218,7 +218,7 @@ main .sobre-nosotros{
 }
 
 .cards .card > .contenido-texto-card{
-    height: 100%;
+    height: 150px;
     width: 50%;
     color: #fff;
 }
