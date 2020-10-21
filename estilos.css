@@ -175,7 +175,6 @@ main .sobre-nosotros{
     transform: scale(1);
 }
 /* Clients */
-@media screen and (max-width: 980px){
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -194,6 +193,33 @@ main .sobre-nosotros{
 
 .cards .card > .contenido-texto-card{
     width: 60%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+@media screen and (max-width: 600px){
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background:hsla(181, 100%, 41%);
+    display: flex;
+    width: 46%;
+    height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card > .contenido-texto-card{
+    height: 100%;
+    width: 50%;
     color: #fff;
 }
 
