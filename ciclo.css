@@ -125,6 +125,7 @@ footer{
     color: #9e9797;
 }
 
+
 @media screen and (max-width:1100px){
     header{
         background-position: center;
@@ -146,6 +147,9 @@ footer{
     .planos-col{
         width: 95%;
     }
+    .mapa-col{
+    width: 95%;
+    }
 
 @media screen and (max-width:500px){
     nav{
@@ -163,6 +167,9 @@ footer{
 
     .textos-header h2{
         font-size: 20px;
+    }
+    .mapa-col{
+    width: 95%;
     }
 
     /* Footer */
